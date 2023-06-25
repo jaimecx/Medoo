@@ -1303,7 +1303,7 @@ class Medoo
                                 $table . '.' . $this->columnQuote($key)
                         ) .
                         ' = ' .
-                        ($this->isRaw($value))? $this->buildRaw($value, $map) : ($this->tableQuote($match['alias'] ?? $match['table']) . '.' . $this->columnQuote($value));
+                        ($this->isRaw($value) ? $this->buildRaw($value, $map) : $this->tableQuote($match['alias'] ?? $match['table']) . '.' . $this->columnQuote($value));
                     }
 
                     $relation = 'ON ' . implode(' AND ', $joins);
