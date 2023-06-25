@@ -1,5 +1,5 @@
 {
-	"name": "jdelta/medoo",
+	"name": "jlibs/medoo",
 	"type": "framework",
 	"description": "The lightest PHP database framework to accelerate development",
 	"keywords": ["database", "lightweight", "PHP framework", "SQL", "MySQL", "MSSQL", "SQLite", "PostgreSQL", "MariaDB", "Oracle"],
@@ -13,7 +13,7 @@
 		{"name": "Angel Lai", "email": "angel@catfan.me"}
 	],
 	"require": {
-		"php": ">=5.4",
+		"php": ">=7.3",
 		"ext-pdo": "*"
 	},
 	"suggest": {
