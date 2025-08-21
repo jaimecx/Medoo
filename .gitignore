@@ -214,4 +214,12 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-/nbproject/
+
+#php-cs-fixer
+/.php_cs
+
+#PHPUnit
+/.phpunit.cache
+
+/composer.lock
+/vendor
